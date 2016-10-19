@@ -45,7 +45,7 @@ class HamburgerViewController: BaseViewController, UITableViewDataSource, UITabl
         
         menuEntries.append(MenuEntry(title: "Classes", iconImageName: "one", viewControllerName: "FirstViewController"))
         menuEntries.append(MenuEntry(title: "Mindful Minute", iconImageName: "nutri", viewControllerName: "NutritionViewController"))
-        menuEntries.append(MenuEntry(title: "Daily Pose", iconImageName: "daily", viewControllerName: "DailyPViewController"))
+        menuEntries.append(MenuEntry(title: "Weekly Pose", iconImageName: "daily", viewControllerName: "DailyPViewController"))
         menuEntries.append(MenuEntry(title: "Contact Me", iconImageName: "three", viewControllerName: "ContactUsViewController"))
         
         slideMenuTableView.reloadData()

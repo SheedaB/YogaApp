@@ -20,7 +20,7 @@ class ContactUsViewController: BaseViewController, MFMailComposeViewControllerDe
         
             addSlideMenuButtonToNav()
         
-        let location = CLLocationCoordinate2D(latitude: 32.937128,longitude: -97.104311)
+        let location = CLLocationCoordinate2D(latitude: 40.753597,longitude: -73.983233)
         
         let span = MKCoordinateSpanMake(0.05, 0.05)
         
@@ -30,7 +30,7 @@ class ContactUsViewController: BaseViewController, MFMailComposeViewControllerDe
         
         let annotation = MKPointAnnotation()
         annotation.coordinate = location
-        annotation.title = "Zen Central!"
+        annotation.title = "Zen Central"
         annotation.subtitle = "Get Yogi With Me"
         
         mapView.addAnnotation(annotation)
